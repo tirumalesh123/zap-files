@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: ./zap-2.9.0.jar
+    destination: /tmp
