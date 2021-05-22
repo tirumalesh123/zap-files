@@ -5,6 +5,7 @@ phases:
     commands:
       #- sudo yum install python3
      # - sudo yum install python34 python34-pip
+      - sudo apt update
       - python3 test_zap.py
   build:
     commands:
