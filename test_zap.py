@@ -22,7 +22,8 @@ zap = ZAPv2(proxies={'http': 'https://stackoverflow.com/', 'https': 'https://sta
 
 print("IMPORTING CONTEXT")
 
-zap.context.import_context('${workspace}/sbir-security/sbir.context', apikey = api)
+#zap.context.import_context('${workspace}/sbir-security/sbir.context', apikey = api)
+zap.context.import_context('${/usr/lib/python2.7/site-packages/zapv2/}/sbir-security/sbir.context', apikey = api)
 
 # The URL must be opened before it can be tested on.
 
