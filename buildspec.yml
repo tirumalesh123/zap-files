@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - sudo yum install python3
+      - python3 test_zap.py
+  build:
+    commands:
+      - python3 test_zap.py
+artifacts:
+  files:
+    - '**/*'
