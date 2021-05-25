@@ -42,7 +42,7 @@ scanid = zap.spider.scan_as_user(2, 2, myApp, subtreeonly = False, recurse = Tru
 time.sleep(2)
 
 while (int(zap.spider.status(scanid)) < 100):
-    print 'Spider progress %: ' + zap.spider.status(scanid)
+    print 'Spider progress %:' + zap.spider.status(scanid)
     time.sleep(2)
 
 print 'Spider completed'
